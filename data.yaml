@@ -1,0 +1,8 @@
+# dataset/data.yaml
+
+train: E:/project/Tehran/2PROGNOSMART/mfiles/000_Tongueclass1_dataset/yolo_dataset_demo/dataset/images/train  # مسیر دقیق به تصاویر آموزشی
+val: E:/project/Tehran/2PROGNOSMART/mfiles/000_Tongueclass1_dataset/yolo_dataset_demo/dataset/images/val      # مسیر دقیق به تصاویر اعتبارسنجی
+
+nc: 4  # تعداد کلاس‌ها
+
+names: ['Cardiovascular', 'Gastrointestinal', 'Pulmonary', 'Renal']  # نام کلاس‌ها

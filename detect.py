@@ -133,8 +133,6 @@ def detect(save_img=False):
 
             # Stream results
             if view_img:
-                import numpy as np
-                im0=cv2.resize(im0,(2*np.shape(im0)[1], 2*np.shape(im0)[0]))
                 cv2.imshow(str(p), im0)
                 cv2.waitKey(1)  # 1 millisecond
 
